@@ -1,0 +1,300 @@
+/*General*/
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.Introduction h1{
+    font-family: sans-serif;
+    font-size:3.125rem;
+    font-weight: 700;
+}
+.Introduction h2{
+    font-family: sans-serif;
+    font-size: 1.625rem;
+    font: weight 700px; ;
+    margin: 1rem auto
+}
+.Introduction h3{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+section{
+    background: #000000;
+    border-bottom: 8px solid #222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section div.content {
+    width: 1100px;
+    
+    margin: auto;
+}
+
+.restore{
+    clear: both;
+}
+/*General*/
+/* Background*/
+html, body, .cover {
+    height: 100%;
+}
+
+.cover {
+ background: url(/IMG/BackgroundLarge.jpg);
+ background-size:cover;
+ background-repeat:no-repeat ;
+ 
+}
+/* Background*/
+/* Header*/
+
+section.header {
+    background: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 75%,rgba(0,0,0,.8) 100%)
+}
+nav {
+    margin: 0 3.5rem;
+    padding-top: 26px;
+}
+.lgNetflix {
+    width: 134px;
+    float: left;
+}
+div.login {
+    float: right;
+}
+div.login span {
+    background-color: #e50914;
+    border-radius: 3px;
+    line-height: normal;
+    padding: 7px 17px;
+    font-family: sans-serif;
+    font-weight:400px;
+    font-size: 1rem;
+    color: #fff
+}
+div.login span:hover{
+    cursor: pointer;
+}
+.Introduction {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 29px 0;
+}
+.Introduction input {
+    height: 50px;
+    width: 500px;
+    /* margin-right: 100px;
+    margin-top: 8px;
+    margin-bottom: 3px; */
+    border-radius: 2px 0px 0px 2px;
+    border: solid 0.5px #5695e9;
+    padding: 10px 10px 0;
+    color: #1c1c1c;
+    text-align: left;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+.Introduction input:active{
+  border: solid 0.5px;
+}
+.Introduction span{
+    border-left: 1.5px solid #e50914;
+    background-image: linear-gradient(to bottom,#e50914,#db0510);
+    font-weight: 400;
+    font-size: 1.625rem;
+    font-family: sans-serif;
+    letter-spacing: .1px;
+    padding: 18px;
+    padding-bottom: 14px;
+    margin-left: -2.8px;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.45);
+}
+.Introduction span:hover, .QContent span:hover {
+    cursor:pointer;
+    background: red;
+}
+/* Background*/
+
+/* TV*/
+.left {
+    float: left;
+
+}
+.right {
+    float: right;
+}
+.floatText{
+    width: 59%;
+}
+.floatmedia{
+    width: 39%;
+}
+/* TV*/
+
+.content img {
+    width: 100%;
+    height: auto;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.content h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 6rem;
+}
+
+.content p{
+    font-size: 25px;
+    font-weight: 200;
+}
+.tv video {
+    position: absolute;
+    transform: translate(-373px, 68px);
+    width: 313px;
+    z-index: 1;
+}
+.enjoy video {
+    position: absolute;
+    transform: translate(-347px, 39px);
+    width: 263px;
+    z-index: 1;
+}
+
+.innerCard, .cover{
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+.innerCard {
+    width: 60%;
+    height: 80px;
+    margin: auto;
+    border: solid 2px #404040 ;
+    padding: 10px;
+    border-radius: 10px ;
+    position: relative;
+    background-color: #000000;
+    z-index: 2;
+}
+
+.card {
+    position: relative;
+    transform: translate(-65px, -41px);
+}
+/*Questions*/
+.Q h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.QContent {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.QContent div {
+    text-align: left;
+    font-size: 20px;
+}
+ .question{
+     background: #303030;
+     padding: 10px;
+     margin-bottom: 8px;
+     margin-top: 8px;
+     cursor: pointer;
+ }
+ .answer{
+    background: #303030;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ }
+ .question p, .answer p{
+     padding: 10px;
+     padding-left: 20px;
+ }
+
+ .answer hr{
+     border: 1px solid #000000;
+ }
+.question:hover .answer{
+    max-height:fit-content;
+    
+}
+ .answer{
+     max-height: 0px;
+     overflow: hidden;
+     transition: all .4s;
+ }
+
+ .QContent input {
+    height: 50px;
+    width: 465px;
+ margin-right: 100px;
+    margin-top: 12px;
+    margin-bottom: 3px; 
+    border-radius: 2px 0px 0px 2px;
+    border: solid 0.5px #5695e9;
+    padding: 10px 10px 0;
+    color: #1c1c1c;
+    text-align: left;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 300;
+ }
+ .QContent span{
+    border-left: 1.5px solid #e50914;
+    background-image: linear-gradient(to bottom,#e50914,#db0510);
+    font-weight: 400;
+    font-size: 1.625rem;
+    font-family: sans-serif;
+    letter-spacing: .1px;
+    padding: 18px;
+    padding-bottom: 14px;
+    margin-left: -104px;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.45);
+}
+
+.QContent h3{
+    margin-top: 50px;
+    font-size: 18px;
+}
+.fcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 1100px;
+    margin: auto;
+}
+
+.footer p {
+    padding: 7px;
+}
+.footer p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
